@@ -7,40 +7,15 @@
     android:orientation="vertical"
     android:layout_gravity="center"
     tools:context=".MainActivity">
-    <RelativeLayout
-        android:layout_margin="10dp"
+    <TextView
+        android:background="@color/button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    <Button
-        android:background="@drawable/bg_button"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="30sp"
         android:textColor="@color/white"
-        android:textSize="15sp"
-        android:id="@+id/btn_login"
-        android:layout_alignParentStart="true"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-
-    android:text="login"/>
-        <Button
-            android:background="@drawable/bg_button"
-            android:textColor="@color/white"
-            android:textSize="15sp"
-            android:id="@+id/btn_signup"
-            android:layout_centerInParent="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Signup"/>
-        <Button
-            android:background="@drawable/bg_button"
-            android:textColor="@color/white"
-            android:textSize="15sp"
-            android:id="@+id/btn_forget"
-            android:layout_alignParentEnd="true"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:text="Forget"/>
-    </RelativeLayout>
+        android:text="MY PROJECT"
+        />
 <FrameLayout
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
